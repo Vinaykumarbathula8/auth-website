@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Vinaykumarbathula8/auth-website.git/static/css/main.37eae30d.css",
-    "main.js": "/Vinaykumarbathula8/auth-website.git/static/js/main.20e32716.js",
-    "static/js/453.df4cb777.chunk.js": "/Vinaykumarbathula8/auth-website.git/static/js/453.df4cb777.chunk.js",
-    "index.html": "/Vinaykumarbathula8/auth-website.git/index.html",
-    "main.37eae30d.css.map": "/Vinaykumarbathula8/auth-website.git/static/css/main.37eae30d.css.map",
-    "main.20e32716.js.map": "/Vinaykumarbathula8/auth-website.git/static/js/main.20e32716.js.map",
-    "453.df4cb777.chunk.js.map": "/Vinaykumarbathula8/auth-website.git/static/js/453.df4cb777.chunk.js.map"
+    "main.css": "/auth-website/static/css/main.37eae30d.css",
+    "main.js": "/auth-website/static/js/main.598bf22c.js",
+    "static/js/453.df4cb777.chunk.js": "/auth-website/static/js/453.df4cb777.chunk.js",
+    "index.html": "/auth-website/index.html",
+    "main.37eae30d.css.map": "/auth-website/static/css/main.37eae30d.css.map",
+    "main.598bf22c.js.map": "/auth-website/static/js/main.598bf22c.js.map",
+    "453.df4cb777.chunk.js.map": "/auth-website/static/js/453.df4cb777.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.37eae30d.css",
-    "static/js/main.20e32716.js"
+    "static/js/main.598bf22c.js"
   ]
 }
