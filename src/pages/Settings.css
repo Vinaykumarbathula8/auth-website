@@ -1,0 +1,111 @@
+.settings-container {
+    max-width: 500px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #f9fbfd;
+    border-radius: 12px;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.1);
+  }
+  
+  .settings-title {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #343a40;
+    margin-bottom: 20px;
+  }
+  
+  .settings-section {
+    margin-bottom: 30px;
+  }
+  
+  .section-title {
+    font-size: 1.25rem;
+    color: #495057;
+    margin-bottom: 10px;
+  }
+  
+  .toggle-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .toggle-label {
+    font-size: 1rem;
+    color: #495057;
+  }
+  
+  .switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+  }
+  
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    transition: 0.4s;
+    border-radius: 50px;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    border-radius: 50px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    transition: 0.4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #4CAF50;
+  }
+  
+  input:checked + .slider:before {
+    transform: translateX(26px);
+  }
+  
+  .status-section {
+    margin-top: 20px;
+  }
+  
+  .status-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 12px;
+  }
+  
+  .status-label {
+    font-size: 1rem;
+    color: #495057;
+  }
+  
+  .status-value {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #343a40;
+  }
+  
+  .status-value.active {
+    color: #28a745;
+  }
+  
+  .status-value.expired {
+    color: #dc3545;
+  }
+  
